@@ -2,14 +2,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-h1{
-    font-weight: 800;
-}
 span{
     color: #0794F8;
 }
 #header{
     display: flex;
+}
+h1{
+    word-spacing: 1px;
 }
 .button{
     text-decoration: none;
@@ -31,15 +31,14 @@ a{
 }
 #about-us{
     display: flex;
-    background-image: url(photos/bg-2.jpg);
-    height: 500px;
-    background-position: center;
+    background-image: url(photos/bg-2.png);
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 h2{
+    color: #C3957E;
     text-align: center;
     padding-bottom: 5%;
 }
@@ -49,6 +48,39 @@ h2{
 .word-side{
     padding-top: 6%;
 }
-p{
+#about-us .word-side p{
     text-align: center;
 }
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#CA8134, #C3957E);
+    padding: 10px 20px;
+   
+}
+.word-side a{
+    display: inline-block;
+    margin-left: 45%;
+    
+}
+.menu{
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+.menu h1{
+    color: #C3957E;
+}
+#recipie{
+    display: flex;
+}
+.recipie-menu{
+    padding: 10px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 3px 7px 10px 10px grey;
+    border-radius: 10px;
+}
+
